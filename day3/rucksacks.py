@@ -9,6 +9,7 @@ def get_compartments(rucksack):
     mid = len(rucksack) // 2
     return rucksack[:mid], rucksack[mid:]
 
+
 prioritySum = 0
 with open("input.txt", "r+") as file:
     lines = file.readlines()
@@ -34,4 +35,3 @@ for index in range(0, len(lines)-2, 3):
             print(char)
             break
 print(badgeSum)
-
