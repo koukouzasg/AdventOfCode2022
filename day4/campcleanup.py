@@ -11,6 +11,7 @@ def ovelaps1(start1: int, end1: int, start2: int, end2: int) -> bool:
 def ovelaps2(start1: int, end1: int, start2: int, end2: int) -> bool:
     return (start1 <= start2 and end2 <= end1) or (start2 <= end1 <= end2) or (start2 <= start1 <= end2)
 
+
 lines = read_file("input.txt")
 totalSum1 = 0
 totalSum2 = 0
