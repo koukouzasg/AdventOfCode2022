@@ -10,4 +10,6 @@ def find_packet(stream, length: int) -> int:
 with open("input.txt") as file:
     stream = file.read()
 
+
+print(find_packet(stream, 4))
 print(find_packet(stream, 14))
